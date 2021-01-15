@@ -24,13 +24,25 @@ AttributeEnd
 
 AttributeBegin
 Material "glass" 
-Translate -60 0 0
+Translate -60 0 -60 
 Shape "sphere" "float radius" [50.0]
 AttributeEnd
 
 AttributeBegin
 Material "mirror" 
-Translate 60 0 0
+Translate 60 0 -60 
+Shape "sphere" "float radius" [50.0]
+AttributeEnd
+
+AttributeBegin
+Material "metal" 
+Translate -60 0 60
+Shape "sphere" "float radius" [50.0]
+AttributeEnd
+
+AttributeBegin
+Material "subsurface" 
+Translate 60 0 60
 Shape "sphere" "float radius" [50.0]
 AttributeEnd
 
